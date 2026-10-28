@@ -14,4 +14,17 @@ public class PartnerProject{
 		}
 
 	}
+	public int trish(int[][] array){
+		for(int i=0; i<array.length; i++){
+			for(int j=0; j<array[i].length-1; j++){
+				if(array[i][j] % 2 == 0){
+					return array[i][j];
+				}
+				else{
+					return 0;
+				}
+			}
+		}
+		return 0;
+	}
 }
